@@ -1,0 +1,149 @@
+
+
+body {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#header.fixed{
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  left: 0;
+}
+.header-log {
+  padding-left: 20px;
+}
+.img-log img{
+  width: 50%;
+}
+.header__nav {
+  
+}
+.header__nav-list{
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+}
+.header__nav-list-item {
+  padding-right: 15px;
+  font-size: 18px;
+}
+/*end.header.nav*/
+
+
+.main {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.main-mv {
+  background: url(../img/mv.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+}
+
+.main__ttl {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 64px;
+  font-weight: bold;
+  width: 100%;
+}
+.main__ttl-item {
+  color: #fff;
+  font-size: 24px;
+}
+/*----------------end.main画像真ん中---------------*/
+
+
+.about {
+  background: #000;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+  opacity: 0.9;
+
+}
+.about__ttl {
+  color: #fff;
+  font-size: 32px;
+
+}
+.about__ttl-item {
+  color: #fff;
+  font-size: 16px;
+  line-height: 1.5em;
+  font-weight: lighter;
+}
+/*-------------end.about--------------*/
+
+
+.service {
+  margin-top: 80px;
+}
+.service__ttl {
+  text-align: center;
+  font-size: 32px;
+  font-weight: bold;
+}
+.servis__card {
+  display: grid;
+  grid-template-rows: 200px 200px;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 30px;
+}
+.servis__card-gird {
+}
+.card__img img {
+  width: 300px;
+  display: inline-block;
+}
+.card__img:nth-of-type(1) {
+  grid-row: 1/2;
+  grid-column: 1/2;
+  top: 100px;
+}
+.card__img:nth-of-type(2) {
+  grid-row: 1/2;
+  grid-column: 2/3;
+  top: 100px;
+}
+.card__img:nth-of-type(3) {
+  grid-row: 2/3;
+  grid-column: 1/2;
+  top: 100px;
+}
+.card__img:nth-of-type(4) {
+  grid-row: 2/3;
+  grid-column: 2/3;
+  top: 100px;
+}
+
+
+.card__tag {
+
+}
+.card__tag-item {
+
+}
