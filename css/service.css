@@ -1,0 +1,180 @@
+
+/*ーーーーサービス一覧ページ、事業内容ーーーーーーー*/
+
+
+body {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  background-color: #fff;
+}
+#header{
+  position: fixed;
+  z-index: 999;
+  top: 0px;
+  left: 0;
+}
+.header-log {
+  padding-left: 20px;
+}
+.img-log img{
+  width: 50%;
+}
+
+.header__nav-list{
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+}
+.header__nav-list-item {
+  padding-right: 15px;
+  font-size: 18px;
+}
+/*end.header.nav*/
+
+
+.main {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.main-mv {
+  background: url(../img/mv.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+}
+.main-mv.main-mv-img {
+  background-position: center;
+  height: 300px;
+}
+
+
+.main__ttl {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 32px;
+  font-weight: bold;
+  width: 100%;
+}
+/*----------------end.main画像真ん中---------------*/
+
+
+
+
+/*ーーー事業内容ーーーーー*/
+.service {
+  width: 80%;
+  margin: 0 auto;
+  border-bottom: 1px solid #000;
+  padding-bottom: 20px;
+}
+
+.service__box {
+  width: 100%;
+  display: flex;
+  margin-top: 50px;
+  border-top: 1px solid #000;
+  padding-top: 20px;
+
+}
+.service__box img {
+  width: 300px;
+}
+
+.card__tag {
+  font-weight: bold;
+  font-size: 24px;
+  padding-left: 20px;
+}
+.card__tag-item {
+  font-size: 15px;
+  padding-left: 20px;
+}
+
+.contact {
+  background: #F5F5F5;
+  text-align: center;
+  padding: 20px 0 20px 0;
+  margin-top: 50px;
+
+}
+.contact__ttl {
+  font-weight: bold;
+  font-size: 24px;
+
+}
+.contact__ttl-tag {
+  font-size: 14px;
+
+}
+.contact__btn {
+  width: 300px;
+  background: #FF6347;
+  text-decoration: none;
+  padding: 15px;
+  display: inline-block;
+  text-align: center;
+  color: #fff;
+  font-weight: bold;
+  font-size: 18px;
+  margin: 20px auto;
+}
+.contact__btn:hover {
+  background: #FF6347;
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+
+
+.footer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(51, 49, 49);
+  padding: 10px;
+}
+.footer__log {
+  color: #fff;
+  display: inline-block;
+  font-size: 12px;
+  padding-left: 100px;
+}
+.footer__nav-list{
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 100px;
+}
+.footer__nav-list-item {
+  font-size: 12px;
+  color: #fff;
+  border-right: 1px solid;
+  padding-right: 8px;
+  padding-left: 8px;
+}
+
+
+
+
+
