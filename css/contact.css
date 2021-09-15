@@ -183,7 +183,7 @@ span {
   justify-content: space-between;
   align-items: center;
   background-color: rgb(51, 49, 49);
-  padding: 10px;
+  padding: 10px 10px 10px auto;
 }
 .footer__log {
   color: #fff;
