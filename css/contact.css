@@ -126,8 +126,13 @@ span {
   display: inline-block;
   width: 300px;
   text-align: center;
-  text-decoration: none;
-  
+}
+.btn input {
+  border: none;
+  outline: none;
+  background: transparent;
+  color: #fff;
+
 }
 
 
