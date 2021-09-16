@@ -1,5 +1,6 @@
 
-@media screen and (min-width:1000px) and (max-width:1500px) {
+
+@media screen and (min-width:400px) and (max-width:768px) {
 
 
 
@@ -11,9 +12,6 @@ body {
 p {
   color: black;
 }
-
-
-
 
 a {
   text-decoration: none;
@@ -377,5 +375,6 @@ a {
   padding-right: 8px;
   padding-left: 8px;
 }
+
 
 }
