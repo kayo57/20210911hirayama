@@ -4,6 +4,14 @@ body {
   margin: 0;
   padding: 0;
 }
+p {
+  color: black;
+}
+@media screen and (max-width: 768px) {
+}
+
+
+
 a {
   text-decoration: none;
   color: inherit;
@@ -29,9 +37,7 @@ a {
 .img-log img{
   width: 50%;
 }
-.header__nav {
-  
-}
+
 .header__nav-list{
   list-style-type: none;
   display: flex;
@@ -239,15 +245,7 @@ a {
 .blog__content-card img {
   width: 100%;
 }
-.blog__text {
 
-}
-.blog__text-data {
-
-}
-.blog__text-tag {
-
-}
 /*-------end.5ページ目.blog.end------*/
 
 
@@ -306,6 +304,7 @@ a {
   margin: 0 auto;
 }
 
+/*--------------------end.6ページ.会社概要、採用情報.emd--------------*/
 
 
 

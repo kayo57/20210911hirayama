@@ -92,11 +92,8 @@ a {
 .blog__content {
   display: flex;
   justify-content: center;
-  
 }
-.blog__content-flex {
-  display: flex;
-}
+
 .blog__content-card {
   width: 30%;
   padding-right: 20px;
@@ -105,9 +102,7 @@ a {
 .blog__content-card img {
   width: 100%;
 }
-.blog__text {
 
-}
 .blog__text-data {
   font-size: 14px;
 }

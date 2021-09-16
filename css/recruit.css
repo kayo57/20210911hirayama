@@ -29,7 +29,6 @@ a {
 .img-log img{
   width: 50%;
 }
-  
 .header__nav-list{
   list-style-type: none;
   display: flex;
@@ -87,9 +86,7 @@ a {
   width: 80%;
   margin: 0 auto;
 }
-.recruit-content {
 
-}
 .recruit__ttl {
   border-bottom: 1px solid;
   margin: 0 auto;
