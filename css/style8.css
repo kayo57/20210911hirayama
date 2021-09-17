@@ -19,7 +19,9 @@
   height: 4px;
   background-color: #000;
   position: absolute;
+  right: 50px;
   transition: 0.5s;
+
 }
 .menu__line--top {
   top: 0;
@@ -44,6 +46,28 @@
 .in{
   transform: translateX(100%);
 }
+
+.header__nav {
+  display: none;
+}
+.header__nav-list{
+  list-style-type: none;
+}
+.header__nav-list-item {
+  padding-right: 15px;
+  font-size: 18px;
+  color: blue;
+}
+nav {
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  
+  background: #fff;
+  transition: .7s;
+  text-align: center;
+}
+
 
 }
 
