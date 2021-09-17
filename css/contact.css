@@ -6,7 +6,6 @@
   cursor: pointer;
   position: relative;
   left: 20px;
-  top: 20px;
 }
 .menu__line--top,
 .menu__line--middle,
@@ -97,7 +96,7 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 20px;
+  padding: 20px 0 20px 0;
   background-color: #fff;
 }
 #header{
@@ -131,6 +130,7 @@ a {
   display: flex;
   justify-content: center;
   text-align: center;
+  margin-bottom: 70px;
 }
 .main-mv {
   background: url(../img/mv.png);
