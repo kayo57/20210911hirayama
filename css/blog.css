@@ -258,4 +258,35 @@ a {
 
 
 
+/*------@media.blog.@media-----*/
+@media screen and (max-width:768px) {
+.blog__content {
+  display: block;
+  margin: 50px;
+}
+.blog__content-card {
+  width: 100%;
+  padding-right: 0;
+}
+.footer{
+  text-align: center;
+}
+.footer__log {
+  text-align: center;
+}
+.footer__nav {
+  margin: 0 auto;
+  width: 100%;
+  display: block;
+}
+.footer__nav-list{
+  display: block;
+  margin-right: 0;
+  padding: 0;
+}
+.footer__nav-list-item {
+  border: none;
+  padding-bottom: 10px;
+}
+}
 

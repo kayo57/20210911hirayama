@@ -241,7 +241,7 @@ a {
   background-color: rgb(51, 49, 49);
   padding: 10px 10px 10px auto;
 }
-}
+
 .footer__log {
   color: #fff;
   display: inline-block;
@@ -262,7 +262,36 @@ a {
   padding-left: 8px;
 }
 
+/*------@media.service.@media-----*/
+@media screen and (max-width:768px) {
+.service__box {
+  display: block;
+}
+.service__box img{
+  width: 100%;
+}
 
+.footer{
+  text-align: center;
+}
+.footer__log {
+  text-align: center;
+}
+.footer__nav {
+  margin: 0 auto;
+  width: 100%;
+  display: block;
+}
+.footer__nav-list{
+  display: block;
+  margin-right: 0;
+  padding: 0;
+}
+.footer__nav-list-item {
+  border: none;
+  padding-bottom: 10px;
+}
+}
 
 
 

@@ -247,5 +247,26 @@ span {
   padding-left: 8px;
 }
 
-
+@media screen and (max-width:768px) {
+.footer{
+  text-align: center;
+}
+.footer__log {
+  text-align: center;
+}
+.footer__nav {
+  margin: 0 auto;
+  width: 100%;
+  display: block;
+}
+.footer__nav-list{
+  display: block;
+  margin-right: 0;
+  padding: 0;
+}
+.footer__nav-list-item {
+  border: none;
+  padding-bottom: 10px;
+}
+}
 
