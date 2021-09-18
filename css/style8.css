@@ -7,7 +7,6 @@
   cursor: pointer;
   position: relative;
   left: 20px;
-  
 }
 .menu__line--top,
 .menu__line--middle,
@@ -70,7 +69,25 @@
   color: blue;
 }
 
+.footer {
+  
 }
+.footer__nav {
+}
+.footer__nav-list{
+  display: block;
+
+}
+
+
+
+
+
+
+}
+
+
+
 /*--------end.レスポンシブ768px以下.end----------*/
 
 
@@ -85,9 +102,6 @@ body {
 p {
   color: black;
 }
-
-
-
 
 a {
   text-decoration: none;
